@@ -1,0 +1,168 @@
+html{
+    font-family: liberation mono;
+    background-image: url(fond_ete.jpg);
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color:white;
+}
+#menu{
+	display: flex;
+	justify-content: space-around;
+    background-attachment: fixed;
+}
+#nav{
+	flex:2;
+	background-color: orange;
+	text-decoration: none;
+	color: black;
+    text-align: center;
+}
+#nav:hover{
+    background-color: orangered;
+    box-shadow: 6px 6px 6px black;
+    color: white;
+    opacity: 0.5;
+    text-decoration: underline;
+}
+#nav:focus{
+    background-color: greenyellow;
+    color: black;
+    opacity: 0.5;
+    box-shadow: 6px 6px 6px green;
+}
+h2{
+    color: white;
+}
+td{
+    font-size: 20px
+}
+#ouvert{
+    background-color: greenyellow;
+    opacity: 0.5;
+    font-size: 30px;
+}
+#fermee{
+    background-color: red;
+    opacity: 0.5;
+    font-size: 30px;
+}
+#colones{
+    width: 13.5%;
+}
+#horraires{
+    text-align: right;
+    width: 4%
+}
+#EDT{
+    float: left;
+    width: 30%;
+    text-align: center;
+    color: white;
+}
+#infos{
+    float: right;
+    width: 65%;
+}
+u{
+    color: orange;
+}
+#liens{
+    color: red;
+}
+::-moz-selection{
+    background-color : orangered;
+    color : #fff
+  }
+  ::selection{
+    background-color : orangered;
+    color : #fff
+  }
+#réseaux{
+    display: flex;
+    justify-content: space-around;
+}
+#Maintenance{
+    border-style: solid;
+    border-color: orange;
+    background-color: orange;
+    text-align: center;
+    box-shadow: 8px 8px 8px orangered;
+    opacity: 0.8;
+}
+#QUI, #QUOI, #COMMENT{
+    color: orangered;
+    text-shadow: 2px 2px 2px orange;
+    text-decoration: underline;
+    width: 30%;
+}
+#presentation{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    border-bottom: double;
+    border-top: double;
+    border-color: orange
+}
+#Partie_1{
+    float: left;
+    width: 33%;
+    border-right: double;
+    border-color: orange;
+}
+#Partie_2{
+    float: auto;
+    width: 33%;
+    border-right: double;
+    border-color: orange;
+}
+#Partie_3{
+    float: right;
+    width: 33%;
+}
+#Saisons{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#S0{
+    background-image: url(screenshots/Lycee2.png);
+    width: 50%;
+    font-size: 25px;
+}
+#S0:hover{
+    box-shadow: 6px 6px 6px orangered;
+}
+#S1{
+    background-image: none;
+    width: 50%
+}
+#S{
+    color: Orange;
+    text-decoration: none;
+}
+#histoire{
+    width: 100%;
+    text-align: justify;
+    border-bottom: double;
+    border-top: double;
+    border-color: orange
+}
+#Évènement{
+    background-color: Blue;
+    box-shadow: 6px 6px 6px blueviolet;
+    text-align: center;
+    opacity: 0.7;
+    width: 50%;
+    float: left;
+}
+#euroFF{
+    float: right;
+    width: 50%
+}
+#infos_event{
+    float: left;
+    width: 50%;
+}

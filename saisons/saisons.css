@@ -1,0 +1,65 @@
+#builds{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#marché{
+    background-image: url(../screenshots/centre_ville_marché.png);
+    width: 50%
+}
+h4{
+    color: orangered;
+    text-shadow: 6px 6px 6px orange;
+    font-size: 35px;
+}
+#maison4{
+    background-image: url(../screenshots/Maison_4.png);
+    width: 50%
+}
+#maison23{
+    background-image: url(../screenshots/maison_2_3.png);
+    width: 100%;
+    text-align: center;
+}
+#maison1{
+    background-image: url(../screenshots/Maison_1.png);
+    width: 50%
+}
+#pont{
+    background-image: url(../screenshots/bus2.png);
+    width: 50%
+}
+div{
+    border-color: orange;
+    border-style: groove;
+}
+#Boucherie{
+    background-image: url(../screenshots/Boucherie.png);
+    width: 50%
+}
+#boulangerie{
+    background-image: url(../screenshots/Lycee2.png);
+    width: 50%
+}
+#Péage{
+    background-image: url(../screenshots/péage1.png);
+    width: 50%
+}
+#Gymnase{
+    background-image: url(../screenshots/gymnase1.png);
+    width: 50%
+}
+#hyper{
+    background-image: url(../screenshots/hyper.png);
+    width: 100%;
+    text-align: center;
+}
+#gare{
+    background-image: url(../screenshots/gare_bonnes.png);
+    width: 50%
+}
+#Bowling{
+    background-image: url(../screenshots/bowling.png);
+    width: 50%
+}
